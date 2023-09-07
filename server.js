@@ -26,7 +26,7 @@ app.use(express.static('public'))
 
 // Root
 app.get("/", (req, res) => {
-  res.send("working!");
+  res.redirect('/tweets')
 });
 
 //* ============= View Routes
